@@ -1,0 +1,6 @@
+{
+  "name": "libportable_debug_panel.so",
+  "types": "./Index.d.ts",
+  "version": "1.0.0",
+  "description": "On-device log panel for HarmonyOS apps. Captures console and hilog output natively, displays it in a floating overlay and stores it as JSONL"
+}

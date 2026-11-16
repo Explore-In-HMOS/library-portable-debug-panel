@@ -1,0 +1,12 @@
+{
+  "module": {
+    "name": "portable_debug_panel",
+    "type": "har",
+    "description": "$string:shared_desc",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "wearable"
+    ]
+  }
+}
