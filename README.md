@@ -65,7 +65,7 @@ Other options: maxEntries sets how many records are held in memory (default 2000
 
 Log files are written to the app sandbox as JSONL, one file per app launch, named after the time it was opened:
 
-./data/storage/el2/base/files/debugpanel/log-20261001-092307.jsonl
+./data/storage/el2/base/files/debugkit/log-20261001-092307.jsonl
 
 The repository includes a [script](https://github.com/Explore-In-HMOS/library-portable-debug-panel/tree/main/script) that pulls them to your desktop. Run debug-logs.bat with the device connected over hdc.
 
@@ -74,7 +74,7 @@ It lists the apps installed on the device, filtering out system packages. Enter 
 If you prefer to do it by hand, hdc works directly:
 
 ```ets
-hdc file recv -b com.your.app "./data/storage/el2/base/files/debugpanel" D:\logs
+hdc file recv -b com.your.app "./data/storage/el2/base/files/debugkit" D:\logs
 ```
 
 
